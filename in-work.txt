@@ -1,3 +1,5 @@
+// Typical project structure
+
 project-root/
 ├── src/
 │   ├── config/          # Environment variables and global settings
@@ -15,3 +17,9 @@ project-root/
 ├── .env                 # Secret environment variables
 ├── package.json         # Dependencies and scripts
 └── tsconfig.json        # TypeScript compiler settings
+
+// Rest calls
+Get: Retreive data from teh server
+Post: Create a new resource
+Put/Patch: Update existing data
+Delete: Remove a resource
