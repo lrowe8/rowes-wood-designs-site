@@ -7,4 +7,5 @@ interface Product {
     shape: Shape;
     height: number; // In inches
     width: number; // In inches
+    cuttype: CutType;
 }
