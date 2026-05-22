@@ -1,0 +1,10 @@
+Docker file must be named Dockerfile
+
+# To build
+docker build -t my-custom-sql .
+
+# To run 
+docker exec -it my-sql mysql -u root -pmy-secret-pw
+
+# My SQL select databse
+use mydb;
