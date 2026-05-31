@@ -4,6 +4,7 @@ import cors from "cors"
 import helmet from "helmet"
 
 import woodPrices from './routes/woodPrices';
+import users from './routes/users';
 
 dotenv.config()
 
@@ -20,6 +21,7 @@ app.use(cors())
 app.use(helmet());
 
 app.use('/woodPrices', woodPrices);
+app.use('/users', users)
 
 app.get('/', (req: Request, res: Response) => {
     res.json({ message: "API is active" });
